@@ -562,6 +562,14 @@ h3.my-profession{
 .about .about-content .timeline .timeline-title{
     font-weight: 700;
     font-size: 18px;
+    /* margin-bottom: 15px; */
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+
+.about .about-content .timeline .timeline-subtitle{
+    font-weight: 700;
+    font-size: 14px;
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
@@ -570,7 +578,7 @@ h3.my-profession{
 .about .about-content .timeline .timeline-text{
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    /* text-align: justify; */
     color: var(--text-black-700);
 }
 
