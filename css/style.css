@@ -852,6 +852,9 @@ h3.my-profession{
     .style-switcher{
         top: 80px !important;
     }
+    .style-switcher.open .colors span{
+        cursor: pointer;
+    }
     .about .about-content .personal-info .info-item {
         flex: 0 0 100%;
         max-width: 100%;
